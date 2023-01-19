@@ -9,8 +9,6 @@ class QuestionsController < ApplicationController
     super
   end
 
-  private
-
   def coach_answer(question)
     if question.downcase == 'I am going to work'
     elsif question.end_with?('?')
